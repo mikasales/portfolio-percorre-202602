@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: beige;
+}
+
+.apresentacao{
+    display: flex;
+
+    background-color: rgb(240, 238, 238);
+    background: #DE151A;
+    background: radial-gradient(at 18% 18%, #DE151A, transparent 70%), radial-gradient(at 82% 18%, #CC41CF, transparent 70%), #DE151A;
+
+}
+
+.foto-perfil{
+    border-radius: 1000px;
+}
+
+.apresentacao-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.apresentacao-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* na classse perfil onde tiver um filho img, aplique essa configuração */
+.linkedin-perfil > img{
+    width: 50px;
+    border-radius: 40px;
+    
+}
